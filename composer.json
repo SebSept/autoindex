@@ -10,18 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=5.6",
-        "symfony/finder": "^3.4",
-        "symfony/console": "^3.4 || ^4.4",
-        "nikic/php-parser": "^3.1"
+        "symfony/finder": "^3.4 || ~4.0 || ~5.0",
+        "symfony/console": "^3.4 || ~4.0 || ~5.0"
     },
     "config": {
         "preferred-install": "dist",
         "prepend-autoloader": false,
-        "optimize-autoloader": true,
-        "platform": {
-            "php": "5.6"
-        }
+        "optimize-autoloader": true
     },
     "bin": ["bin/autoindex"],
     "autoload": {
