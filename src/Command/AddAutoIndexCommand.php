@@ -107,6 +107,6 @@ class AddAutoIndexCommand extends Command
         $progress->finish();
         $output->writeln('');
 
-        return 1;
+        return 0;
     }
 }
