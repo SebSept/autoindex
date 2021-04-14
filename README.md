@@ -1,7 +1,13 @@
 Auto Index
 =========
 
-Automatically add an "index.php" in all your directories or your zip file recursively
+## This forks 
+
+allow the package to use be used when symfony/finder and console are at 4.x or 5.x versions.
+
+-----
+
+Automatically add an "index.php" in all your directories, or your zip file recursively
 
 ## Getting Started
 
